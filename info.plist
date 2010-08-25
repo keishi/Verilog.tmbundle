@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Verilog</string>
+	<key>ordering</key>
+	<array>
+		<string>F4ABA507-80D1-479E-B42A-C2CB05F64145</string>
+		<string>71CC5247-16BA-473A-A40F-DB81586BE36C</string>
+		<string>8177EB10-D377-4336-9DDE-38A72202B4FE</string>
+		<string>D253B84C-B6BB-4BEC-A770-E0269990B97B</string>
+		<string>30B4AD93-3995-4969-A2CB-3600FC289FD6</string>
+	</array>
+	<key>uuid</key>
+	<string>D8661B41-3677-4231-A401-8707CC16A25A</string>
+</dict>
+</plist>

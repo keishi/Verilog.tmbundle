@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Symbol List Module</string>
+	<key>scope</key>
+	<string>source.verilog entity.name.module.verilog</string>
+	<key>settings</key>
+	<dict>
+		<key>showInSymbolList</key>
+		<string>1</string>
+		<key>symbolTransformation</key>
+		<string>
+      s/^/• /g;
+   </string>
+	</dict>
+	<key>uuid</key>
+	<string>8177EB10-D377-4336-9DDE-38A72202B4FE</string>
+</dict>
+</plist>

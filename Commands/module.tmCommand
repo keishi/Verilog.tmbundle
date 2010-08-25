@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>cat &lt;&lt;SNIPPET
+module ${TM_SELECTED_TEXT:-$TM_CURRENT_WORD}(\${1:args});
+	\$0
+endmodule
+SNIPPET</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>module</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>source.verilog</string>
+	<key>uuid</key>
+	<string>30B4AD93-3995-4969-A2CB-3600FC289FD6</string>
+</dict>
+</plist>

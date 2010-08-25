@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Indentation Rules</string>
+	<key>scope</key>
+	<string>source.verilog</string>
+	<key>settings</key>
+	<dict>
+		<key>decreaseIndentPattern</key>
+		<string>\b(end|endcase|function|module)\b</string>
+		<key>increaseIndentPattern</key>
+		<string>\b(begin|case|endfunction|endmodule)\b</string>
+	</dict>
+	<key>uuid</key>
+	<string>71CC5247-16BA-473A-A40F-DB81586BE36C</string>
+</dict>
+</plist>

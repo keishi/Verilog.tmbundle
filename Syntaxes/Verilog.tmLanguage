@@ -90,7 +90,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.function.verilog</string>
+					<string>keyword.control.verilog</string>
 				</dict>
 				<key>2</key>
 				<dict>

@@ -5,20 +5,18 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>cat &lt;&lt;SNIPPET
-module ${TM_SELECTED_TEXT:-$TM_CURRENT_WORD}(\${1:args});
-	\$0
-endmodule
-SNIPPET</string>
+	<string>iverilog "$TM_FILEPATH" &amp; echo "OK"</string>
 	<key>input</key>
-	<string>selection</string>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@r</string>
 	<key>name</key>
-	<string>module</string>
+	<string>Compile</string>
 	<key>output</key>
-	<string>replaceSelectedText</string>
+	<string>showAsTooltip</string>
 	<key>scope</key>
 	<string>source.verilog</string>
 	<key>uuid</key>
-	<string>30B4AD93-3995-4969-A2CB-3600FC289FD6</string>
+	<string>3E879893-C1F0-4D7E-B280-C1DF9CF25F07</string>
 </dict>
 </plist>

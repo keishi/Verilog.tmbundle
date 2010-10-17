@@ -5,19 +5,18 @@
 	<key>beforeRunningCommand</key>
 	<string>saveActiveFile</string>
 	<key>command</key>
-	<string>rm -f a.out &amp;&amp; iverilog "$TM_FILEPATH" &amp;&amp; echo "Compile OK"
-</string>
+	<string>rm -f a.out &amp;&amp; iverilog "$TM_FILEPATH" &amp;&amp; vvp a.out &amp;&amp; osascript -e 'beep 1'</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>@b</string>
+	<string>@r</string>
 	<key>name</key>
-	<string>Compile</string>
+	<string>Compile &amp; Run</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>scope</key>
 	<string>source.verilog</string>
 	<key>uuid</key>
-	<string>3E879893-C1F0-4D7E-B280-C1DF9CF25F07</string>
+	<string>153E9618-CAD9-4182-841F-3AE3B97D3164</string>
 </dict>
 </plist>

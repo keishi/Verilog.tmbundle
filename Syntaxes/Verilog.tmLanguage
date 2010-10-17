@@ -62,13 +62,19 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>`[a-zA-Z0-9_]+\b</string>
+			<key>name</key>
+			<string>constant.other.verilog</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>\b([0-9]+'[bBoOdDhH][0-9a-fA-FxXzZ]+|[0-9]+)\b</string>
 			<key>name</key>
 			<string>constant.numeric.verilog</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(if|else|case|endcase|for|while|always|begin|end|function|endfunction|endmodule)\b</string>
+			<string>\b(if|else|case|endcase|for|while|always|initial|begin|end|function|endfunction|endmodule)\b</string>
 			<key>name</key>
 			<string>keyword.control.verilog</string>
 		</dict>
@@ -83,6 +89,12 @@
 			<string>\b(posedge|negedge)\b</string>
 			<key>name</key>
 			<string>keyword.operator.verilog</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\$[a-zA-Z0-9_]+\b</string>
+			<key>name</key>
+			<string>storage.type.function.verilog</string>
 		</dict>
 		<dict>
 			<key>captures</key>
